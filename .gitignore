@@ -28,18 +28,8 @@ target/
 build/
 !**/src/main/**/build/
 !**/src/test/**/build/
-/src/test/*
 src/main/resources
 
-# Ignorar as pastas específicas
-src/main/java/med.voll.api/controller/
-src/main/java/med.voll.api/domain/
-src/main/java/med.voll.api/infra/
-src/main/java/med.voll.api/repository/
-src/main/java/med.voll.api/service/
-
-# Manter apenas Application.java rastreado
-!src/main/java/med.voll.api/Application.java
 
 
 ### VS Code ###
